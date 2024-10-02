@@ -1,0 +1,37 @@
+{
+  "name": "weather-api",
+  "version": "1.0.0",
+  "description": "This project is a simple weather API that fetches and returns real-time weather data.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Alireza Dehghan Ashkezari",
+  "license": "MIT",
+  "homepage": "https://github.com/ar-dehghan-a/weather-api#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ar-dehghan-a/weather-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ar-dehghan-a/weather-api/issues"
+  },
+  "keywords": [
+    "weather",
+    "REST_API",
+    "node",
+    "express",
+    "redis"
+  ],
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/express": "~5.0.0",
+    "nodemon": "^3.1.7"
+  }
+}
