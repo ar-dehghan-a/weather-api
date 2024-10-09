@@ -30,7 +30,7 @@ To run this project, you need the following:
    Create a `.env` file in the root directory and add your Visual Crossing Weather API key
 
    ```bash
-   API_KEY=your_visual_crossing_api_key
+   API_KEY=PKZZFAPZRPMUBS4NHKVBHFYJ7
    ```
 
 4. Ensure Redis is running on your system.
